@@ -10,28 +10,26 @@ I used python as a programming language to write the lambda function.
  Role permisisions are also set to access the dynamoDb from lambda function and also gave permission access for CloudWatchLogsFullAccess.
  <br/>
  ![lambda](images/lambda-2.png)
-<br/>
-<br/>
+<br><br>
  Then created API gateway and created resource and methods for those and deployed them. 
 </br>
 After deployment the url is:
 <b>"https://shrvt75jte.execute-api.us-east-1.amazonaws.com/production/students?student_id=126" </b> <br/>
 below is the pic for created url's
 ![API-Gateway](images/APIGateway-1.png)
-<br/>
-<br/>
+<br><br>
 ### Testing the Urls's
 Below are the pics for test images in postman for those url's
-</br>
+<br><br>
 First posting the data to db </br>
 ![post](images/post.png)
-<br/>
+<br><br>
 get students data using student_id </br>
 ![get](images/get.png)
-<br/>
+<br><br>
 delete student data with using student_id</br>
-![delete](images/lambda-2.png)
-<br/>
+![delete](images/delete.png)
+<br><br>
 check student data is present in database or not after deleting by using get method 
 ![get-2](images/get-2.png)
 
