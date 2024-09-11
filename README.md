@@ -54,5 +54,5 @@ Items in dynamoDb are as follows:
 <br><br>
 
 
-## Challenges faced:
-Need to check location and time while creating the table in DynamoDb, lambda Function and API gateway also need to configure permissions correctly for DynamoDbfull access and then checked ClodWatchlogs for 500 internal server errors and rectified them. 
+## Challenges faced
+Need to check location and time while creating the table in DynamoDb, lambda Function and API gateway also need to configure permissions correctly for DynamoDbfull access and then checked CloudWatchlogs for 500 internal server errors and rectified them.
