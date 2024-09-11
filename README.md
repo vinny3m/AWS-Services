@@ -14,7 +14,7 @@ I used python as a programming language to write the lambda function.
  Then created API gateway and created resource and methods for those and deployed them. 
 </br>
 After deployment the url is:
-<b>"https://shrvt75jte.execute-api.us-east-1.amazonaws.com/production/students?student_id=126" </b> 
+<b> "https://shrvt75jte.execute-api.us-east-1.amazonaws.com/production/students?student_id=126" </b> 
 <br><br>
 below is the pic for created url's
 ![API-Gateway](images/APIGateway-1.png)
@@ -22,15 +22,19 @@ below is the pic for created url's
 ### Testing the Urls's
 Below are the pics for test images in postman for those url's
 <br><br>
-First posting the data to db </br>
+First posting the data to database
+<br><br>
 ![post](images/post.png)
 <br><br>
-get students data using student_id </br>
+get students data using student_id
+<br><br>
 ![get](images/get.png)
 <br><br>
-delete student data with using student_id</br>
+delete student data with using student_id
+<br><br>
 ![delete](images/delete.png)
 <br><br>
-check student data is present in database or not after deleting by using get method 
+check student data is present in database or not after deleting by using get method.
+<br><br>
 ![get-2](images/get-2.png)
 <br><br>
