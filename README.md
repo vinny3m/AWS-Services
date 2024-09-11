@@ -32,7 +32,7 @@ get students data using student_id
 ![get](images/get.png)
 <br><br>
 
-## Data in DynamoDb
+#### Data in DynamoDb
 Sample data in the table
 <br><br>
 ![db-items-1](images/db-items-1.png)
