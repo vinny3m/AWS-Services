@@ -37,3 +37,12 @@ check student data is present in database or not after deleting by using get met
 <br><br>
 ![get-2](images/get-2.png)
 <br><br>
+
+Items in dynamoDb are as follows:
+<br><br>
+![db-items](images/db-items.png)
+<br><br>
+
+
+## Challenges faced:
+Need to check location and time while creating the table in DynamoDb, lambda Function and API gateway also need to configure permissions correctly for DynamoDbfull access and then checked ClodWatchlogs for 500 internal server errors and rectified them. 
