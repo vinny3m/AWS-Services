@@ -1,32 +1,37 @@
 ## Setup Installations:
 
-Initially created a table in DynamoDb named StudentRecords with student_id as a primary key. </br>
+Initially created a table in DynamoDb named <b>StudentRecords</b> with <b>student_id</b> as a primary key. </br>
 ![DynamoDb](images/DynamoDb.png)
-
-Then lambda function named <b>"serverless-api-p" is created </br>
+</br>
+Then lambda function named <b>"serverless-api-p"</b> is created </br>
 ![lambda](images/lambda-1.png)
+</br>
 I used python as a programming language to write the lambda function. 
  Role permisisions are also set to access the dynamoDb from lambda function and also gave permission access for CloudWatchLogsFullAccess.
  <br/>
  ![lambda](images/lambda-2.png)
-
+<br/>
+<br/>
  Then created API gateway and created resource and methods for those and deployed them. 
 </br>
+After deployment the url is:
+<b>"https://shrvt75jte.execute-api.us-east-1.amazonaws.com/production/students?student_id=126" </b> <br/>
 below is the pic for created url's
 ![API-Gateway](images/APIGateway-1.png)
-
+<br/>
+<br/>
 ### Testing the Urls's
-below are the pics for test images in postman for those url's
+Below are the pics for test images in postman for those url's
 </br>
 First posting the data to db </br>
 ![post](images/post.png)
-
+<br/>
 get students data using student_id </br>
 ![get](images/get.png)
-
+<br/>
 delete student data with using student_id</br>
 ![delete](images/lambda-2.png)
-
+<br/>
 check student data is present in database or not after deleting by using get method 
 ![get-2](images/get-2.png)
 
