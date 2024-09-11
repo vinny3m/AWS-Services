@@ -18,6 +18,8 @@ After deployment the url is:
 below is the pic for created url's
 ![API-Gateway](images/APIGateway-1.png)
 <br><br>
+
+
 ### Testing the Urls's
 Below are the pics for test images in postman for those url's
 <br><br>
@@ -29,6 +31,14 @@ get students data using student_id
 <br><br>
 ![get](images/get.png)
 <br><br>
+
+## Data in DynamoDb
+Sample data in the table
+<br><br>
+![db-items-1](images/db-items-1.png)
+<br><br>
+
+
 delete student data with using student_id
 <br><br>
 ![delete](images/delete.png)
