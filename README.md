@@ -16,7 +16,7 @@ After deployment the url is:
 <b> "https://shrvt75jte.execute-api.us-east-1.amazonaws.com/production/students?student_id=126" </b> 
 <br><br>
 below is the pic for created url's
-![API-Gateway](images/APiG.png)
+![API-Gateway](images/ApiG.png)
 <br><br>
 
 
