@@ -16,7 +16,7 @@ After deployment the url is:
 <b> "https://shrvt75jte.execute-api.us-east-1.amazonaws.com/production/students?student_id=126" </b> 
 <br><br>
 below is the pic for created url's
-![API-Gateway](images/APIGateway-1.png)
+![API-Gateway](images/APiG.png)
 <br><br>
 
 
@@ -51,6 +51,18 @@ check student data is present in database or not after deleting by using get met
 Items in dynamoDb are as follows:
 <br><br>
 ![db-items](images/db-items.png)
+<br><br>
+
+Updating the data in database.
+First inserting data and then retrieving that data as follows
+<br><br>
+![put](images/put-1.png)
+<br><br>
+![put](images/put-2.png)
+
+Then updating the data using put method.
+<br><br>
+![put](images/put-3.png)
 <br><br>
 
 
